@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce</title>
+    <!-- Add CSS and Bootstrap files -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/styles.css">
+</head>
+
+<body>
+    <header class="heroheading">
+        <!-- Navigation bar -->
+        
+        <div class="">
+            <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">OnlyGreens</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navhide">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navhide">
+                    <ul class="navbar-nav "  >
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link navoptions">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="shop.html" class="nav-link navoptions">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link navoptions">Contact Us</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="myProfile.html" class="nav-link navoptions">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="cart.html" class="nav-link navoptions">Cart</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <h1 class="pt-5">Cart</h1>
+            <!-- Featured products with images, titles, and prices -->
+
+        </div>
+    </main>
+    <section class="cart-table">
+        <div class="container">
+            <div class="row mb-5">
+                <form class="col-md-12" method="post">
+                  <div class="site-blocks-table">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th class="product-thumbnail">Image</th>
+                          <th class="product-name">Product</th>
+                          <th class="product-price">Price</th>
+                          <th class="product-quantity">Quantity</th>
+                          <th class="product-total">Total</th>
+                          <th class="product-remove">Remove</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="product-thumbnail">
+                            <img src="greencauliflower.jpg" alt="Image" class="img-fluid">
+                          </td>
+                          <td class="product-name">
+                            <h2 class="h5 text-black">Product 1</h2>
+                          </td>
+                          <td>90.00 Rs/Kg</td>
+                          <td>
+                            <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 120px;">
+                              
+                              <input type="text" class="form-control text-center quantity-amount" value="2" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                              
+                            </div>
+        
+                          </td>
+                          <td>180.00 Rs</td>
+                          <td><a href="#" class="btn btn-black btn-sm">X</a></td>
+                        </tr>
+        
+                        <tr>
+                          <td class="product-thumbnail">
+                            <img src="grapes.jpg" alt="Image" class="img-fluid">
+                          </td>
+                          <td class="product-name">
+                            <h2 class="h5 text-black">Product 2</h2>
+                          </td>
+                          <td>85.00 Rs/Kg</td>
+                          <td>
+                            <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 120px;">
+                              
+                              <input type="text" class="form-control text-center quantity-amount" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                              
+                            </div>
+        
+                          </td>
+                          <td>85.00 Rs</td>
+                          <td><a href="#" class="btn btn-black btn-sm">X</a></td>
+                        </tr>
+                        <tr>
+                            <td class="product-thumbnail">
+                              <img src="tomatoe.jpeg" alt="Image" class="img-fluid">
+                            </td>
+                            <td class="product-name">
+                              <h2 class="h5 text-black">Product 3</h2>
+                            </td>
+                            <td>110.00 Rs/Kg</td>
+                            <td>
+                              <div class="input-group mb-3 d-flex align-items-center quantity-container" style="max-width: 120px;">
+                                
+                                <input type="text" class="form-control text-center quantity-amount" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                                
+                              </div>
+          
+                            </td>
+                            <td>110.00 Rs</td>
+                            <td><a href="#" class="btn btn-black btn-sm">X</a></td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </form>
+              </div>
+              <div class="row mb-5">
+                <div class="col-md-6">
+                  <div class="row mb-5">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <a href="index.html" class="btn btn-black btn-lg btn-warning">Update Cart</a>
+                    </div>
+                    <div class="col-md-6">
+                      <a href="shop.html" class="btn btn-outline-black btn-lg btn-light">Continue Shopping</a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label class="text-black h4" for="coupon">Coupon</label>
+                      <p>Enter your coupon code if you have one.</p>
+                    </div>
+                    <div class="col-md-8 mb-3 mb-md-0">
+                      <input type="text" class="form-control py-3" id="coupon" placeholder="Coupon Code">
+                    </div>
+                    <div class=" col-md-4">
+                      <a href="#" class="coupon btn btn-light btn-lg">Apply Coupon</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 pl-5">
+                  <div class="row justify-content-end">
+                    <div class="col-md-7">
+                      <div class="row">
+                        <div class="col-md-12 text-right border-bottom mb-5">
+                          <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col-md-6">
+                          <span class="text-black">Subtotal</span>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <strong class="text-black">375.00 Rs</strong>
+                        </div>
+                      </div>
+                      <div class="row mb-5">
+                        <div class="col-md-6">
+                          <span class="text-black">Total</span>
+                        </div>
+                        <div class="col-md-6 text-right">
+                          <strong class="text-black">375.00 Rs</strong>
+                        </div>
+                      </div>
+        
+                      <div class="row">
+                        <div class="col-md-12">
+                          <button class="btn btn-black btn-lg py-3 btn-block" >Checkout</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <footer>
+        <main style="
+background: #2e302e!important;
+height: 270px;">
+<div class="container">
+<!-- Featured products with images, titles, and prices -->
+
+<div class="row mt-5">
+    <div class="col-md-15 offset-1 mt-5">
+
+        <h4 style="color:white;">Cities we serve</h4>
+        <a href="#" class="mr-2 mt-4  btn btn-sm btn-link" style="color:white;">Bengaluru</a>
+        <a href="#" class="mr-2 mt-4  btn btn-sm btn-link" style="color:white;">NCR</a>
+        <a href="#" class="mr-2 mt-4  btn btn-sm btn-link" style="color:white;">Hyderabad</a>
+        <a href="#" class="mr-2 mt-4  btn btn-sm btn-link" style="color:white;">Vijayawada</a>
+        <a href="#" class="mr-2 mt-4  btn btn-sm btn-link" style="color:white;">Kanpur</a>
+        <a href="#" class="mr-2 mt-4  btn btn-sm btn-link" style="color:white;">Nagpur</a>
+        <a href="#" class="mr-2 mt-4  btn btn-sm btn-link" style="color:white;">Noida</a><br><br>
+
+
+
+        <p class="copyright" >
+            <small style="color:white;">
+            © 2021 Delightful Gourmet Pvt Ltd. All Rights Reserved.
+                OnlyGreens is your one-stop fresh veggie delivery shop. In here, you get nothing but the freshest vegetables delivered straight to your doorstep. Now you can buy vegetable online anytime at your convenience. Indulge in our diverse selection: Capsicum, cauliflower, kale, okra, spinach etc. All our products are completely natural and healthy. Once you've experienced OnlyGreens, you'll never go back to the old way of buying veggies. 
+            </small>
+        </p>
+        <br><br>
+    </div>
+</div>
+
+</div>
+</main>
+</footer>   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

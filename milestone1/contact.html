@@ -16,7 +16,7 @@
         <!-- Navigation bar -->
         <div class="">
             <nav style="
-            background: #343a40!important;" class="navbar navbar-expand-lg  navbar-dark bg-dark navbar fixed-top ">
+            background: #343a40!important;" class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top ">
                 <a class="navbar-brand" href="index.html">OnlyGreens</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navhide">
                     <span class="navbar-toggler-icon"></span>
@@ -32,17 +32,23 @@
                         <li class="nav-item">
                             <a href="contact.html" class="nav-link navoptions active">Contact Us</a>
                         </li>
-                        <li class="nav-item">
-                            <a  href="profile.html" class="nav-link navoptions d-lg-inline d-none">
+                        <!-- <li class="nav-item">
+                            <a  href="myProfile.html" class="nav-link navoptions d-lg-inline d-none">
                                 <img style="transform: translateY(4px);" class="svg " src="resources/img/user.svg" alt="">
                             </a>
-                            <a href="profile.html" class="d-lg-none nav-link navoptions">Profile</a>
+                            <a href="myProfile.html" class="d-lg-none nav-link navoptions">Profile</a>
                         </li>
                         <li class="nav-item">
                             <a  href="cart.html" class="nav-link navoptions d-lg-inline d-none">
                                 <img style="transform: translateY(4px);" class="svg " src="resources/img/cart.svg" alt="">
                             </a>
                             <a href="cart.html" class="d-lg-none nav-link navoptions">Cart</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a href="myProfile.html" class="nav-link navoptions">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="cart.html" class="nav-link navoptions ">Cart</a>
                         </li>
                     </ul>
                     
@@ -83,10 +89,10 @@
                             <label for="help"> <b>How can we help you?</b><span class="asterick"></span></label>
                             <textarea name="help" required id="help" class="form-control form-control-range"  rows="6"></textarea>
                     </fieldset>
-                        <button type="submit" class="btn btn-lg my-3 btn-primary ">Submit</button>
+                        <button type="submit" class="btn btn-lg my-3 btn-info ">Submit</button>
                         <br><br><br>
 
-                        <a href="#" class="mr-2 mt-4  btn btn-sm btn-secondary">About</a>
+                        <!-- <a href="#" class="mr-2 mt-4  btn btn-sm btn-secondary">About</a>
                         <a href="#" class="mr-2 mt-4  btn btn-sm btn-secondary">Blog</a>
                         <a href="#" class="mr-2 mt-4  btn btn-sm btn-secondary">Refunds</a>
                         <a href="#" class="mr-2 mt-4  btn btn-sm btn-secondary">Career</a>
@@ -100,7 +106,7 @@
                         <a href="https://instagram.com/">
                             <ion-icon name="logo-instagram" class="footericon"></ion-icon>
                         </a>
-                        
+                         -->
                 </div>
             </div>
         </div>
@@ -110,14 +116,43 @@
     
     <footer>
         <!-- Footer links and contact information -->
-        <div class="container">             
-                <p class="copyright">
-                    <small>
-                        © 2021 Delightful Gourmet Pvt Ltd. All Rights Reserved.
-                        OnlyGreens is your one-stop fresh veggie delivery shop. In here, you get nothing but the freshest vegetables delivered straight to your doorstep. Now you can buy vegetable online anytime at your convenience. Indulge in our diverse selection: Capsicum, cauliflower, kale, okra, spinach etc. All our products are completely natural and healthy. Once you've experienced OnlyGreens, you'll never go back to the old way of buying veggies. 
-                    </small>
-                </p>
-        </div>
+        
+        <main style="
+        background: #2e302e!important;
+        height: 270px;">
+            <div class="container">
+                <!-- Featured products with images, titles, and prices -->
+                
+                <div class="row mt-5">
+                    <div class="col-md-15 offset-1 mt-5">
+
+
+                        <a href="#" class="mr-2 mt-4  btn btn-sm btn-link" style="color:white;">About</a>
+                        <a href="#" class="mr-2 mt-4  btn btn-sm btn-link" style="color:white;">Blog</a>
+                        <a href="#" class="mr-2 mt-4  btn btn-sm btn-link" style="color:white;">Refunds</a>
+                        <a href="#" class="mr-2 mt-4  btn btn-sm btn-link" style="color:white;">Career</a>
+
+                        <a href="https://www.facebook.com/">
+                            <ion-icon name="logo-facebook" class="footericon"></ion-icon>
+                        </a>
+                        <a href="https://twitter.com/home">
+                            <ion-icon name="logo-twitter" class="footericon"></ion-icon>
+                        </a>
+                        <a href="https://instagram.com/">
+                            <ion-icon name="logo-instagram" class="footericon"></ion-icon>
+                        </a>
+                        <br><br><br>
+                        <p class="copyright" >
+                            <small style="color:white;">
+                            © 2021 Delightful Gourmet Pvt Ltd. All Rights Reserved.
+                                OnlyGreens is your one-stop fresh veggie delivery shop. In here, you get nothing but the freshest vegetables delivered straight to your doorstep. Now you can buy vegetable online anytime at your convenience. Indulge in our diverse selection: Capsicum, cauliflower, kale, okra, spinach etc. All our products are completely natural and healthy. Once you've experienced OnlyGreens, you'll never go back to the old way of buying veggies. 
+                            </small>
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
     </footer>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
